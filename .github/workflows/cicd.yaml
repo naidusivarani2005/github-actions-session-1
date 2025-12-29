@@ -1,7 +1,8 @@
 name: github-actions-session1
 
 on:
-  push: main
+  push:
+    branches: main
 
 jobs:
   ci-cd-practice:
