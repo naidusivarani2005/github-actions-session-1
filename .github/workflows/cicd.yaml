@@ -1,0 +1,12 @@
+name: github-actions-session1
+
+on:
+  push: main
+
+jobs:
+  ci-cd-practice:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Message Printing
+        run: echo "Welcome to github actions"
